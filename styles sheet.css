@@ -1,3 +1,25 @@
 body{
     background-color: aquamarine;
 }
+article{
+    float: left;
+    padding-left: 100px;
+}
+nav{
+    width: 50%;
+   margin: auto;
+    margin: top;
+    clear: both;
+}
+nav>ul>li{
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    background-color: rgb(240, 177, 203);
+    color: black;
+    padding: 20px;
+    margin-top: 30px;
+}
